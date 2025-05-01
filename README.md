@@ -1,6 +1,13 @@
 # 52-week-breakout-strategy
 Momentum-based trading strategy using 52-week highs and volume confirmation to backtest breakout performance on equity data.
 
+## Data
+
+All historical return and price data used in this strategy is stored in the `data/` folder:
+
+- `data/djia_data.csv`: Historical price data for DJIA constituents (1998–2024)
+- `data/fama_french_49.csv`: Monthly returns from Kenneth French’s industry portfolios
+  
 ### Objective
 This project provides a detailed evaluation of three trading strategies applied to the Dow Jones Industrial Average ETF (DIA) and its underlying components over a 27-year period, from January 20, 1998, to December 31, 2024. The goal is to critically compare passive investing with active, breakout-based strategies to understand their performance across different market conditions.
 
